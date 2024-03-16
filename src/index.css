@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+table {
+  display: grid;
+  justify-content: center;
+}
+
+tbody tr {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
+
+td,
+th {
+  padding: 8px;
+}
